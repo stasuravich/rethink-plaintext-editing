@@ -1,4 +1,20 @@
 .editor {
-  width: 640px;
+  display: flex;
+  height: 700px;
+  width:1000px;
   background-color: var(--color-white);
+}
+
+.textarea {
+  width: 50%;
+  height:100vh;
+  padding: 20px;
+  font-size: 2rem;
+  outline: none;
+}
+
+.markdown{
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
 }
